@@ -18,6 +18,7 @@ def calcular():
 janela = ctk.CTk('#a772ba')
 janela.geometry('600x550')
 janela.title('Sistema Escolar - 2025')
+janela.resizable(False, False)
 
 ctk.CTkLabel(janela,
             text=('App Sistema Escolar'),
