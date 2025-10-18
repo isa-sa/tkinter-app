@@ -9,7 +9,7 @@ def calcular():
     
     if final >= 7:
         situacao = 'aprovado'
-    elif 5 < final < 7:
+    elif 5 <= final < 7:
         situacao = 'recuperação'
     else:
         situacao = 'reprovado'
